@@ -1,1 +1,1 @@
-# VR_Therapy
+# DhyanaVR
