@@ -5,13 +5,13 @@ Vertigo is a debilitating condition characterized by a sensation of spinning and
 ##### Objective :
 It was to develop a Virtual Reality (VR) Therapy & Rehabilitation platform that leverages the immersive and controlled environment of VR to create a blissful space for meditation.
 
-## Project Highlights :
+## Project Highlights 
 
-## Setup :
+## Setup 
 
-## Architechture :
+## Architechture 
 
-## Homepage :
+## Homepage 
 
 ## Results
 
