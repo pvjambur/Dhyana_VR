@@ -15,7 +15,7 @@ Vertigo is a debilitating condition characterized by a sensation of spinning and
 To develop a Virtual Reality (VR) Therapy & Rehabilitation platform built through 'Swift' (integrated with Vision Pro dynamics) that leverages the immersive and controlled environment to create a blissful space for meditation.
 The user can wear the VR headset on the go; isolated VR headset "Apple Vision Pro". Vertigo being the most common mental - health issue faced by millions across the world, has been increasing at an alarming rate, due to mordern life routines, habits & lifestyles. Further parameters such as heart rate, spO2 (blood oxygen) & pulse rate can be measured through the "Apple Watch Series 9".
 
-<img width="300" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/860acd27-8d2d-46bb-9c2a-64cb77c1a09d">
+<img width="300" alt="50" src="https://github.com/pvjambur/Dhyana_VR/blob/main/wat.png">
 
 Traditional vertigo therapy involves deep breathing, yoga and a combination of ayurvedic and synthetic medications giving temporary relief. However, our objective is to emphasize deep breathing & yoga; integrated with music therapy for HRV, frequency therapy for & the mind & image - sound sensory combination to improve the breathing cycle. We use multiple neurobiology and cardiovascular terms to generate an overall progress report of the person.
 
