@@ -23,7 +23,47 @@ Traditional vertigo therapy involves deep breathing, yoga and a combination of a
 
 ## Project Highlights 
 
-####
+### Heart Rate, HRV & Pulse interpolation
+Based on the monitored heart rate and pulse, we can interpolate the dynamic HRV of the person. Two main formulas are used to calculate HRV: RMSSD and SDNN.
+
+#### RMSSD - the root mean square of successive differences
+A standard statistical measure of HRV. It stands for the root mean square of successive differences. RMSSD HRV measures the time difference between each successive heartbeat in real-time to arrive at your RMSSD score, meaning you can see the result at the exact moment. This formula helps investigate the impact of training loads and recovery processes.
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/0293ff08-ea77-4f7c-9e1f-c7d6895e6b3b)
+
+Researchers have proposed the following HRV RMSSD normal ranges in different studies:
+
+19 – 48 ms — healthy adults in the age group of 38 – 42 years
+35 – 107 ms — elite athletes
+
+An important feature of RMSSD is that it characterizes short-term rapid changes in heart rate, which can only occur under the influence of the parasympathetic nervous system. It is important to assess the performance of the parasympathetic system and analyze HRV, taking into account rapidly changing metrics.
+
+#### SDNN - the standard deviation of NN intervals
+SDNN is a measure of HRV that calculates the average value of HRV in milliseconds and shows how far your HRV is from that average at any point in the day. Although it is often calculated in 24 hours.
+The SDNN is considered the “gold standard” for medical stratification of cardiac risk. SDNN values predict both morbidity and mortality.
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/a1c28c89-0962-441e-ac62-7d9e8f31eeeb)
+
+Heart attack patients with SDNN values over 100 ms have been reported to have a 5.3 lower mortality risk than those with under 50 ms.
+
+#### pNN50 - another notable measure of HRV
+
+Shows how active your parasympathetic system is relative to the sympathetic nervous system. The higher the value, the more relaxed the body is. If the pNN50 is low, you’re either tired or over-stressed.
+This measure helps assess parasympathetic activity from 24-hour ECG recordings, and the study presented supporting data by comparing pNN50 values in healthy subjects with those with diabetes mellitus and patients who’ve had a heart transplant.
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/5e29b85b-6684-45d2-929c-e007c4d053df)
+
+
+### Audio and HRV interpolation
+
+These factors are the major connectors between HRV monitoring and music therapy. Let us go in deep and understand the factors which interpolate and graph parameters from audio and HRV inputs.
+
+#### HRV Frequency Measurements (LF, HF, LF/HF)
+
+
+
+
+
 
 
 
