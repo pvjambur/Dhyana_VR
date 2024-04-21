@@ -71,7 +71,7 @@ These factors are the major connectors between HRV monitoring and music therapy.
 1. Clone this repository to your local machine using:
 
 ```bash
-git clone https://github.com/talesoverfables/T-BOLT.git
+git clone https://github.com/pvjambur/Dhyana_VR.git
 ```
 2. Navigate to the project directory:
 
