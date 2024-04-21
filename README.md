@@ -48,6 +48,29 @@ The user can wear the VR headset on the go; isolated VR headset "Apple Vision Pr
 
 Traditional vertigo therapy involves deep breathing, yoga and a combination of ayurvedic and synthetic medications giving temporary relief. However, our objective is to emphasize deep breathing & yoga; integrated with music therapy for HRV, frequency therapy for & the mind & image - sound sensory combination to improve the breathing cycle. We use multiple neurobiology and cardiovascular terms to generate an overall progress report of the person.
 
+
+## Installation
+1. Clone this repository to your local machine using:
+
+```bash
+git clone https://github.com/pvjambur/Dhyana_VR.git
+```
+2. Navigate to the project directory:
+
+```bash
+cd Dhyana_VR
+```
+3. Install the required dependencies from `requirements.txt` using pip:
+```
+pip install -r requirements.txt
+```
+4. Clone this repository using `git clone` and deploy using the command:
+```bash
+streamlit run main.py
+```
+5. To work with the VR, if you posses a Virtual reality headset, go on and relish you meditation session, if not, we have 3D visuals for you!
+
+
 ## Project Highlights 
 
 ### Heart Rate, HRV & Pulse interpolation
