@@ -52,7 +52,7 @@ Shows how active your parasympathetic system is relative to the sympathetic nerv
 This measure helps assess parasympathetic activity from 24-hour ECG recordings, and the study presented supporting data by comparing pNN50 values in healthy subjects with those with diabetes mellitus and patients who’ve had a heart transplant.
 
 ![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/5e29b85b-6684-45d2-929c-e007c4d053df)
-
+<img width="900" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/5e29b85b-6684-45d2-929c-e007c4d053df">
 
 ### Audio and HRV interpolation
 
