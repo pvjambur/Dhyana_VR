@@ -68,6 +68,24 @@ These factors are the major connectors between HRV monitoring and music therapy.
 
 
 ## Setup 
+1. Clone this repository to your local machine using:
+
+```bash
+git clone https://github.com/talesoverfables/T-BOLT.git
+```
+2. Navigate to the project directory:
+
+```bash
+cd T-BOLT
+```
+3. Install the required dependencies from `requirements.txt` using pip:
+```
+pip install -r requirements.txt
+```
+4. Clone this repository using `git clone` and deploy using the command:
+```bash
+streamlit run main.py
+```
 
 ## Architechture 
 
