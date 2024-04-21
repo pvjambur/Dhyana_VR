@@ -72,6 +72,7 @@ These factors are the major connectors between HRV monitoring and music therapy.
 ## Architechture 
 
 ## Homepage 
+<img width="500" alt="50" src="https://github.com/pvjambur/Dhyana_VR/blob/main/home.png">
 
 ## Results
 
