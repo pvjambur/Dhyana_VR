@@ -208,7 +208,7 @@ Cold air can stimulate deep breathing and can improve the breathing cycle. A sep
 
 Aroma infusion with the given nostril air add-on can lower stress levels in users quite rapidly. Multiple volatile yet safe non-polar liquids are infused in as mist-like - like - form which causes no harm to users, yet ensures that the user inhales less amount over a long period.
 
-Aroma-therapy stimulates the presence of the user near lakes, meadows etc, given a $D - an immersive experience, encapsulating every sensory response of the user.
+Aromatherapy stimulates the presence of the user near lakes, meadows etc, given a $D - an immersive experience, encapsulating every sensory response of the user.
 
 #### Overall Immersive Experience
 
@@ -225,4 +225,11 @@ session.
 Refer to [Our project Pitch](https://www.canva.com/design/DAGC4YS7vm8/ekBtb1hNoaM3r-oZldobXQ/edit?utm_content=DAGC4YS7vm8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## About us
+
+The collaborators of this GitHub repository are Pranav V Jambur and Smruthi S Kadgadkai
+We are pursuing our bachelors in 'Computer Science' and "Information Science' respectively in R V College of Engineering, Bengaluru, Karnataka, India.
+
+Our academic year started in mid-2023, and we will be graduating in mid-2027.
+
+We are hackathon enthusiasts and would thank 'Caltech University' and 'Devpost' for providing this amazing opportunity to present our pitch.
 
