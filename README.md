@@ -1,6 +1,6 @@
 # DhyanaVR
-"Thought ceases in meditation; even the mind’s elements are quite quiet. Blood circulation stops. His breath stops, but he/she is still alive."
-~ Swami Vivekananda (1896)
+"It is only after we learn to conduct our thoughts, speech, and action in a balanced manner and can enjoy the objects of our senses as a matter"of choice that we reclaim our joyful mind".
+~ Patanjali Yogasutra  400 CE
 
 
 <img width="300" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/25a07aa0-979e-4e76-a4a7-c781ef3e98a7">
@@ -8,35 +8,35 @@
 
 ## Virtual Reality Therapy & Rehabilitation
 
-Virtual reality therapy and rehabilitation for short - term stress and fatigue conditions in athletes and office workers.
-Dhyana VR provides an AI based solution for reducing stress and/or fatigue in specific individuals, in the short term through the combination of VR - headsets.
-The stress and fatugue is constantly meassured using vital HRV parameters like SDNN, HF, LF and LF/HF values along with other body vital parameters, inclusing respiration rate, blood pressure and spO2.
+Virtual reality therapy and rehabilitation for short term stress and fatigue conditions in athletes and office workers. Dhyana VR provides an AI based solution for reducing stress and/or fatigue in specific individuals, in the short term through the combination of VR - headsets. Dhyana VR can also be used for transforming the state of mind from alert to deep sleep and drowsiness to alert state. The stress, fatigue, alertness and sleep sate state is constantly measured using vital HRV parameters like SDNN, HF, LF and LF/HF values along with other body vital parameters, including respiration rate, blood pressure and spO2. An AI based recommendation is used to select right stimulus like music , Bi-Neural frequency, Visual scenery and personalised guided  meditation through voice using VR headset while measuring the above stated parameters and constantly making changes to the stimulus. This experience can be enabled on existing VR headsets like Apple Vision Pro. 
 
 
 ### Background: 
 
-Transitioning the state of feeling:
+
+We know from the past research that transitioning the state of feeling:
 a) From stress to relax
 b) Fatigue to energetic
-c) Wakefullness to deep - sleep
+c) Wakefull-ness to deep - sleep
 d) Drowsy to alertness
+is possible by apply right meditation techniques.
 
-The following is done through meassuring:
-i) HRV
-ii) spO2
-iii) Age
-iv) Gender
-v) Blood pressure
+We also know that HRV time and frequency analysis can provide  accurate state of feeling in humans   in combination of following vital health data 
+i) spO2
+ii) Age
+iii) Gender
+iv) Blood pressure
 
-and superimpossing AI - recommended:
+By knowing the current and desired state of feeling by the customers and measuring HRV and other health vitals continuously we then provide an immersive experience where we  superimpose  AI - recommended:
 1) Visual themes
 2) Relaxing music
-3) Bi - naural frequencies\
+3) Bi -neural  frequencies
 4) Dynamic guided steps through voice
 
-in an immersive experience through binocualar VR headset.
+using a through binocular VR headset.
 
-Traditional therapeutic approaches often involve physical therapy and medication, but these may not be sufficient for all patients. We aim to create a to-go product which can simulate a peaceful environment through virtual reality, stimulating a state of bliss in our minds. 
+
+In contrast to traditional therapeutic approaches which often involve physical therapy and medication and  may not be sufficient for all patients. We aim to create a VR experince which can simulate a desired  environment through virtual reality, stimulating a state of minds as indicated above 
 
 
 ### Objective :
@@ -46,7 +46,7 @@ The user can wear the VR headset on the go; isolated VR headset "Apple Vision Pr
 <img width="300" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/860acd27-8d2d-46bb-9c2a-64cb77c1a09d">
 
 
-Traditional vertigo therapy involves deep breathing, yoga and a combination of ayurvedic and synthetic medications giving temporary relief. However, our objective is to emphasize deep breathing & yoga; integrated with music therapy for HRV, frequency therapy for & the mind & image - sound sensory combination to improve the breathing cycle. We use multiple neurobiology and cardiovascular terms to generate an overall progress report of the person.
+Traditional anti stress and anti fatigue  therapy involves deep breathing, yoga and a combination of ayurvedic and synthetic medications giving temporary relief. However, our objective is to emphasize deep breathing & yoga; integrated with music therapy for HRV, frequency therapy for & the mind & image - sound sensory combination to improve the breathing cycle. We use multiple neurobiology and cardiovascular terms to generate an overall progress report of the person.
 
 
 ## Installation
@@ -72,6 +72,10 @@ streamlit run main.py
 
 
 ## Project Highlights 
+
+<img width="3424" alt="Untitled-6" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/52000a29-a3b2-4baa-abb2-c7a087594266">
+
+The following flowchart gives an in-depth analysis of our project and its working procedure.
 
 ### Heart Rate, HRV & Pulse interpolation
 Based on the monitored heart rate and pulse, we can interpolate the dynamic HRV of the person. Two main formulas are used to calculate HRV: RMSSD and SDNN.
@@ -252,5 +256,16 @@ Refer to [Our project Pitch](https://www.canva.com/design/DAGC4YS7vm8/ekBtb1hNoa
 ## About us
 
 The collaborators of this GitHub repository are Pranav V Jambur and Smruthi S Kadagadkai, pursuing bachelors in Engineering, batch of 2027.
+
+## Bibliography
+
+[link1](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2017.00360/full)
+[link2](https://www.theguardian.com/books/2017/may/07/ice-baths-and-snow-meditation-can-cold-therapy-make-you-stronger-what-doesnt-kill-us-scott-carney)
+[link3](https://pubmed.ncbi.nlm.nih.gov/29424499/)
+[link4](https://www.ans-analysis.com/hrv/hrv-measuring-parameter.html)
+[link4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10008213/#:~:text=Thus%2C%20following%20the%20same%20lines,should%20have%20a%20relaxing%20effect.)
+[link5](https://www.gqmiddleeast.com/news/apple-reveals-new-vr-headset-vision-pro)
+[link7](http://asr.cs.cmu.edu/spring2012/lectures/music.therapy.on.heartrate.variability.pdf)
+[link8](https://www.cureus.com/articles/135577-short-term-effect-of-spiritual-music-on-heart-rate-variability-in-medical-students-a-single-group-experimental-study#!/)
 
 
