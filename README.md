@@ -8,17 +8,22 @@
 ## Virtual Reality Therapy & Rehabilitation for Vertigo
 Cure Vertigo anywhere & anytime, with one click of a button, and teleport yourself to multiple scenic ecosystems and environments. Background audio stimulates deep breathing based on dynamic HRV & pulse monitoring integrated with 'frequency therapy principles'.
 
-##### Background: 
+### Background: 
 Vertigo is a debilitating condition characterized by a sensation of spinning and dizziness, which can significantly impact an individual’s quality of life. Traditional therapeutic approaches often involve physical therapy and medication, but these may not be sufficient for all patients. We aim to create a to-go product which can simulate a peaceful environment through virtual reality, stimulating a state of bliss in our minds. 
 
 
-##### Objective :
-To develop a Virtual Reality (VR) Therapy & Rehabilitation platform that leverages the immersive and controlled environment to create a blissful space for meditation.
-The user can wear the VR headset on the go; either a phone-locked VR headset (Shinecon VR Box) or an isolated VR headset (Apple Vision Pro). Vertigo being the most common mental - health issue faced by millions across the world, has been increasing at an alarming rate, due to mordern life routines, habits & lifestyles. 
+### Objective :
+To develop a Virtual Reality (VR) Therapy & Rehabilitation platform built through 'Swift' (integrated with Vision Pro dynamics) that leverages the immersive and controlled environment to create a blissful space for meditation.
+The user can wear the VR headset on the go; isolated VR headset "Apple Vision Pro". Vertigo being the most common mental - health issue faced by millions across the world, has been increasing at an alarming rate, due to mordern life routines, habits & lifestyles. Further parameters such as heart rate, spO2 (blood oxygen) & pulse rate can be measured through the "Apple Watch Series 9".
 
-Traditional vertigo therapy involves deep breathing, yoga and a combination of ayurvedic and synthetic medications giving temporary relief. However, our objective is to emphasize on deep breathing & yoga; integrated with music therapy for HRV, frequency therapy for & mind & image - sound sensory combination to improve the breathing cycle.
+![SxsXEq2orXEyAdtxgQzjzY](https://github.com/pvjambur/Dhyana_VR/assets/145439975/860acd27-8d2d-46bb-9c2a-64cb77c1a09d)
+
+
+Traditional vertigo therapy involves deep breathing, yoga and a combination of ayurvedic and synthetic medications giving temporary relief. However, our objective is to emphasize deep breathing & yoga; integrated with music therapy for HRV, frequency therapy for & the mind & image - sound sensory combination to improve the breathing cycle. We use multiple neurobiology and cardiovascular terms to generate an overall progress report of the person.
 
 ## Project Highlights 
+
+####
 
 
 
