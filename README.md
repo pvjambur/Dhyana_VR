@@ -158,9 +158,9 @@ There are ancient texts and modern studies alluding to the therapeutic benefits 
 
 ### Hardware Setup
 
-Our project is monitored by two devices: Apple Vision Pro and Apple Watch series
+Our project is monitored by two devices: Apple Vision Pro and the Apple Watch series, with an additional nose-mist add-on.
 
-A 'Swift' based app which can be integrated with Vision pro.
+A 'Swift' based app which can be integrated with Vision Pro.
 
 ![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/62b1618e-c0d3-4292-a311-aef4b982fadd)
 
@@ -171,18 +171,50 @@ Consists of VR display showing the immersive environment interaction, with a das
 
 ### Software design
 
-The dashboard gives a clear view of dynamic status of the user. At the end of the therapy, it generates an excel file giving a detailed report o fthe therapy session and the improvements made by the user. 
+The dashboard gives a clear view of the dynamic status of the user. At the end of the therapy, it generates an Excel file giving a detailed report of the therapy session and the improvements made by the user. 
 
 ![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/87558fe3-2567-4d9f-ae53-c5412e72ea37)
 
 Sample dashboard display, user perspective.
 
+It gives the details of the user's progress and additional information achieved by the user.
+
+## Architechture & Future Scope
+
+<img width="3424" alt="Untitled-6" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/52000a29-a3b2-4baa-abb2-c7a087594266">
+
+The following flowchart gives an in-depth analysis of our project and its working procedure.
+
+### Steps of our project
+
+#### Hardware deployment
+
+The user will be wearing the Apple Vision Pro and Apple series watch, and have a Bluetooth-paired iPhone connected to the watch.
+
+#### Theme and audio analyser
+
+Based on the various HRV, HF, lF & LF/HF ratios recorded by the watch, the system suggests the appropriate theme and audio frequency to be displayed to the user for the most optimum results.
+
+#### Meditation process
+
+The AI guides the entire meditation procedure while displaying the dashboard on the VR screen. Users may change the theme or audio appropriately. Based on various waves and their functions as mentioned in the flowchart, the AI gives the best outcome by varying the pitch of the music according to the 'Principles of Music therapy'.
+
+#### Nostril passage
+
+Cold air can stimulate deep breathing and can improve the breathing cycle. A separate device will be given to the user which can be placed on the nose which spreads cold air near the user's nose, to bring about freshness prompting them to breathe deeply. Cold air has been used for a long for the same procedure, the reason why Yogis meditate in the mountains.
 
 
+#### Aroma infusion and therapy
 
+Aroma infusion with the given nostril air add-on can lower stress levels in users quite rapidly. Multiple volatile yet safe non-polar liquids are infused in as mist-like - like - form which causes no harm to users, yet ensures that the user inhales less amount over a long period.
 
+Aroma-therapy stimulates the presence of the user near lakes, meadows etc, given a $D - an immersive experience, encapsulating every sensory response of the user.
 
-## Architechture 
+#### Overall Immersive Experience
+
+Based on the following parameters, the users get the best experience during the entire phase of meditation. Once the session is over, it gives a detailed report of the user's progress throughout the
+session.
+
 
 ## Homepage 
 <img width="900" alt="50" src="https://github.com/pvjambur/Dhyana_VR/blob/main/home.png">
