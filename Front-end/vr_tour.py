@@ -6,13 +6,37 @@ import matplotlib.pyplot as plt
 
 # Define a function to create a fitness measurement dashboard
 def show():
-    st.title('VR Tour')
+    st.title('Virtual Reality Meditation Environment')
 
-    iframe_code = """
+    
+    page_choice = st.selectbox("Select a location for the VR Visuals:", ["Amidst trees and mountains", "A virtual Golden Gate Bridge", "Amidst the mighty Himalayas"])
+    
+    if page_choice=="Amidst trees and mountains":
+        st.subheader("Amidst trees and mountains")
+        st.write("Amidst the verdant embrace of towering trees and the majestic rise of undulating mountains, there lies a realm where the whispers of nature are more articulate than any human speech. Here, the air is perfumed with the earthy scent of pine and the freshness of unseen blossoms, mingling together in a symphony of fragrances that beckons the soul to wander and wonder.")
+        iframe_code = """
+       <iframe width="100%" height="400" src="https://sketchfab.com/models/a78ae6a11957401a83fd074004aafcc0/embed" frameborder="0" allow="autoplay; fullscreen; mixer; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+     """
+
+        st.markdown(iframe_code, unsafe_allow_html=True)
+
+    if page_choice=="A virtual Golden Gate Bridge":
+        st.subheader("A virtual Golden Gate Bridge")
+        st.write("The Golden Gate Bridge, a marvel of modern engineering, stretches across the churning waters of the San Francisco Bay, its iconic orange spires piercing the fog like beacons of the West Coast. Below, the river, a vital artery of commerce and nature, mirrors the sky as it meanders past cityscapes and under the bridge’s grand arches. Together, they create a postcard-perfect tableau that symbolizes both human ambition and the serene majesty of the natural world.")
+        iframe_code = """
+       <iframe width="100%" height="400" src="https://sketchfab.com/models/6fab41b2c10740cfa3286410d5dbaea3/embed" frameborder="0" allow="autoplay; fullscreen; mixer; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+     """
+
+        st.markdown(iframe_code, unsafe_allow_html=True)
+
+    if page_choice=="Amidst the mighty Himalayas":
+        st.subheader("Amidst the mighty Himalayas")
+        st.write("The Himalayas stand as a testament to nature's grandeur, where the sky is painted with the delicate hues of dawn, casting a golden glow over the snow-laden peaks. In the silence of these towering giants, one can hear the soft whispers of ancient glaciers and the distant rumble of avalanches, like the earth's own heartbeat. Here, in the embrace of these eternal sentinels, time seems to pause, allowing the soul to soar on the wings of the crisp, mountain air.")
+        iframe_code = """
        <iframe width="100%" height="400" src="https://sketchfab.com/models/e086183da4854416a606dc4f3bbea3ae/embed" frameborder="0" allow="autoplay; fullscreen; mixer; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
      """
 
-    st.markdown(iframe_code, unsafe_allow_html=True)
+        st.markdown(iframe_code, unsafe_allow_html=True)
 
     st.write("")
     st.write("")
@@ -22,97 +46,6 @@ def show():
 
 
 
-
-    import random
-    import time
-    import plotly.express as px
-
-# Set up the Streamlit app
-    st.subheader("Heart Rate Visibility Dashboard")
-
-# Create a random dataset
-    factors = ['HRV', 'Frequency Assisted Therapy', 'Oligofactory Senses and Input', 'Blood Pressure and Oxygen Monitoring', 'Pulse vs HRV Stress Levels']
-    data = {'Date': [], 'HRV': [], 'Frequency Assisted Therapy': [], 'Oligofactory Senses and Input': [], 'Blood Pressure and Oxygen Monitoring': [], 'Pulse vs HRV Stress Levels': []}
-    for i in range(100):
-        data['Date'].append(time.strftime('%Y-%m-%d %H:%M:%S', time.gmtime()))
-        data['HRV'].append(random.randint(0, 100))
-        data['Frequency Assisted Therapy'].append(random.randint(0, 100))
-        data['Oligofactory Senses and Input'].append(random.randint(0, 100))
-        data['Blood Pressure and Oxygen Monitoring'].append(random.randint(0, 100))
-        data['Pulse vs HRV Stress Levels'].append(random.randint(0, 100))
-    df = pd.DataFrame(data)
-
-# Display the graph
-    fig = px.line(df, x='Date', y=factors)
-    fig.update_layout(
-        title='Heart Rate Visibility Dashboard',
-        xaxis_title='Date',
-        yaxis_title='Value',
-        legend_title='Factors'
-)
-   
-    fitness_data = {
-        'Measurement': [
-            'HRV (Heart Rate Visibility)',
-            'Frequency Assisted Therapy',
-            'Oligofactory Senses and Input',
-            'Blood Pressure',
-            'Oxygen Monitoring',
-            'Pulse vs HRV Stress Levels'
-        ],
-        'Before': [70, 2, 1, '130/85', 95, 5],
-        'After': [75, 3, 2, '120/80', 98, 4]
-    }
-
-    # Calculate improvements
-    fitness_data['Improvement'] = [
-        fitness_data['After'][i] - fitness_data['Before'][i]
-        if isinstance(fitness_data['Before'][i], int) else 0
-        for i in range(len(fitness_data['Measurement']))
-    ]
-
-    # Convert the dictionary to a DataFrame
-    df = pd.DataFrame(fitness_data)
-
-    # Function to apply color coding to improvements
-    def color_improvement(value):
-        if isinstance(value, int) and value > 0:
-            return "color: green; font-weight: bold; font-size: 1.1em;"
-        elif isinstance(value, int) and value < 0:
-            return "color: red; font-weight: bold; font-size: 1.1em;"
-        else:
-            return "color: black;"
-
-    # Create a downloadable Excel file
-    output = io.BytesIO()
-    writer = pd.ExcelWriter(output, engine='xlsxwriter')
-    df.to_excel(writer, sheet_name='Fitness Measurements', index=False)
-    writer.save()
-    output.seek(0)
-
-    # Function to create a download link for the Excel file
-    def get_download_link(file):
-        href = f'<a href="data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,{base64.b64encode(file.read()).decode()}" download="fitness_measurements.xlsx">Download Excel file</a>'
-        return href
-
-    # Divide the page into two columns
-    col1, col2 = st.columns(2)
-
-    # Display the DataFrame as a table with color-coded improvements in the left column
-    with col1:
-        st.dataframe(df.style.applymap(color_improvement, subset=['Improvement']))
-
-    # Add a download button for the Excel file and a graph of improvements in the right column
-    with col2:
-        st.markdown(get_download_link(output), unsafe_allow_html=True)
-
-        # Plot the improvements graph
-        fig, ax = plt.subplots()
-        ax.bar(df['Measurement'], df['Improvement'], color=['green' if x > 0 else 'red' for x in df['Improvement']])
-        plt.xticks(rotation=45, ha='right')
-        plt.ylabel('Improvement')
-        plt.title('Improvements in Fitness Measurements')
-        st.pyplot(fig)
 
 
 
