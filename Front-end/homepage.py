@@ -30,8 +30,13 @@ def show():
         with right_column:
      
             st_lottie(path, height=500, width=400)
+
+        st.title("VR Headset in view")
+
+        iframe_code = """
+       <iframe width="100%" height="400" src="https://sketchfab.com/models/51b8dbff65e247979f068914f6197909/embed" frameborder="0" allow="autoplay; fullscreen; mixer; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+     """
+
+        st.markdown(iframe_code, unsafe_allow_html=True)
+
             
-        
-
-
-
