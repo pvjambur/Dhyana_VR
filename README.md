@@ -86,7 +86,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run main.py
 ```
-
+5. If you have a VR headset, go ahead and experience the VR-visuals in it, if not, we have exquisite 3D visuals for you!
 ## Architechture 
 
 ## Homepage 
