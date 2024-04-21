@@ -226,10 +226,7 @@ Refer to [Our project Pitch](https://www.canva.com/design/DAGC4YS7vm8/ekBtb1hNoa
 
 ## About us
 
-The collaborators of this GitHub repository are Pranav V Jambur and Smruthi S Kadgadkai
-We are pursuing our bachelors in 'Computer Science' and "Information Science' respectively in R V College of Engineering, Bengaluru, Karnataka, India.
+The collaborators of this GitHub repository are Pranav V Jambur and Smruthi S Kadagadkai
+We are pursuing our bachelors in Engineering.
 
-Our academic year started in mid-2023, and we will be graduating in mid-2027.
-
-We are hackathon enthusiasts and would thank 'Caltech University' and 'Devpost' for providing this amazing opportunity to present our pitch.
 
