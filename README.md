@@ -2,20 +2,48 @@
 "Thought ceases in meditation; even the mind’s elements are quite quiet. Blood circulation stops. His breath stops, but he/she is still alive."
 ~ Swami Vivekananda (1896)
 
-<img width="300" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/25a07aa0-979e-4e76-a4a7-c781ef3e98a7">
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/25a07aa0-979e-4e76-a4a7-c781ef3e98a7)
 
-## Virtual Reality Therapy & Rehabilitation for Vertigo
-Cure Vertigo anywhere & anytime, with one click of a button, and teleport yourself to multiple scenic ecosystems and environments. Background audio stimulates deep breathing based on dynamic HRV & pulse monitoring integrated with 'frequency therapy principles'.
+
+## Virtual Reality Therapy & Rehabilitation
+
+Virtual reality therapy and rehabilitation for short - term stress and fatigue conditions in athletes and office workers.
+Dhyana VR provides an AI based solution for reducing stress and/or fatigue in specific individuals, in the short term through the combination of VR - headsets.
+The stress and fatugue is constantly meassured using vital HRV parameters like SDNN, HF, LF and LF/HF values along with other body vital parameters, inclusing respiration rate, blood pressure and spO2.
+
 
 ### Background: 
-Vertigo is a debilitating condition characterized by a sensation of spinning and dizziness, which can significantly impact an individual’s quality of life. Traditional therapeutic approaches often involve physical therapy and medication, but these may not be sufficient for all patients. We aim to create a to-go product which can simulate a peaceful environment through virtual reality, stimulating a state of bliss in our minds. 
+
+Transitioning the state of feeling:
+a) From stress to relax
+b) Fatigue to energetic
+c) Wakefullness to deep - sleep
+d) Drowsy to alertness
+
+The following is done through meassuring:
+i) HRV
+ii) spO2
+iii) Age
+iv) Gender
+v) Blood pressure
+
+and superimpossing AI - recommended:
+1) Visual themes
+2) Relaxing music
+3) Bi - naural frequencies\
+4) Dynamic guided steps through voice
+
+in an immersive experience through binocualar VR headset.
+
+Traditional therapeutic approaches often involve physical therapy and medication, but these may not be sufficient for all patients. We aim to create a to-go product which can simulate a peaceful environment through virtual reality, stimulating a state of bliss in our minds. 
 
 
 ### Objective :
 To develop a Virtual Reality (VR) Therapy & Rehabilitation platform built through 'Swift' (integrated with Vision Pro dynamics) that leverages the immersive and controlled environment to create a blissful space for meditation.
-The user can wear the VR headset on the go; isolated VR headset "Apple Vision Pro". Vertigo being the most common mental - health issue faced by millions across the world, has been increasing at an alarming rate, due to mordern life routines, habits & lifestyles. Further parameters such as heart rate, spO2 (blood oxygen) & pulse rate can be measured through the "Apple Watch Series 9".
+The user can wear the VR headset on the go; isolated VR headset "Apple Vision Pro". Further parameters such as heart rate, spO2 (blood oxygen) & pulse rate can be measured through the "Apple Watch Series 9".
 
-<img width="300" alt="50" src="https://github.com/pvjambur/Dhyana_VR/blob/main/wat.png">
+![SxsXEq2orXEyAdtxgQzjzY](https://github.com/pvjambur/Dhyana_VR/assets/145439975/860acd27-8d2d-46bb-9c2a-64cb77c1a09d)
+
 
 Traditional vertigo therapy involves deep breathing, yoga and a combination of ayurvedic and synthetic medications giving temporary relief. However, our objective is to emphasize deep breathing & yoga; integrated with music therapy for HRV, frequency therapy for & the mind & image - sound sensory combination to improve the breathing cycle. We use multiple neurobiology and cardiovascular terms to generate an overall progress report of the person.
 
@@ -27,7 +55,8 @@ Based on the monitored heart rate and pulse, we can interpolate the dynamic HRV 
 #### RMSSD - the root mean square of successive differences
 A standard statistical measure of HRV. It stands for the root mean square of successive differences. RMSSD HRV measures the time difference between each successive heartbeat in real-time to arrive at your RMSSD score, meaning you can see the result at the exact moment. This formula helps investigate the impact of training loads and recovery processes.
 
-<img width="500" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/0293ff08-ea77-4f7c-9e1f-c7d6895e6b3b">
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/0293ff08-ea77-4f7c-9e1f-c7d6895e6b3b)
+
 Researchers have proposed the following HRV RMSSD normal ranges in different studies:
 
 19 – 48 ms — healthy adults in the age group of 38 – 42 years
@@ -39,7 +68,7 @@ An important feature of RMSSD is that it characterizes short-term rapid changes 
 SDNN is a measure of HRV that calculates the average value of HRV in milliseconds and shows how far your HRV is from that average at any point in the day. Although it is often calculated in 24 hours.
 The SDNN is considered the “gold standard” for medical stratification of cardiac risk. SDNN values predict both morbidity and mortality.
 
-<img width="500" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/a1c28c89-0962-441e-ac62-7d9e8f31eeeb">
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/a1c28c89-0962-441e-ac62-7d9e8f31eeeb)
 
 Heart attack patients with SDNN values over 100 ms have been reported to have a 5.3 lower mortality risk than those with under 50 ms.
 
@@ -48,7 +77,8 @@ Heart attack patients with SDNN values over 100 ms have been reported to have a 
 Shows how active your parasympathetic system is relative to the sympathetic nervous system. The higher the value, the more relaxed the body is. If the pNN50 is low, you’re either tired or over-stressed.
 This measure helps assess parasympathetic activity from 24-hour ECG recordings, and the study presented supporting data by comparing pNN50 values in healthy subjects with those with diabetes mellitus and patients who’ve had a heart transplant.
 
-<img width="500" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/5e29b85b-6684-45d2-929c-e007c4d053df">
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/5e29b85b-6684-45d2-929c-e007c4d053df)
+
 
 ### Audio and HRV interpolation
 
@@ -56,35 +86,103 @@ These factors are the major connectors between HRV monitoring and music therapy.
 
 #### HRV Frequency Measurements (LF, HF, LF/HF)
 
+ Common Frequency Domain HRV metrics include:
+
+  High-Frequency power (HF): frequency activity in the 0.15 - 0.40Hz range (green in the above chart)
+  Low-Frequency power (LF): frequency activity in the 0.04 - 0.15Hz range (yellow in the above chart)
+  LF/HF Ratio: A ratio of Low Frequency to High Frequency. Some consider this indicative of Sympathetic to Parasympathetic Autonomic Balance, but that is controversial.
+
+Time-Domain Parameter:
+
+  RR: interval between two heartbeats (R spikes in the QRS complex / ECG).
+  NN: interval between two heartbeats (emphasis on "normal" heartbeats)
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/ce0e5eca-0c9b-4f77-a398-71eb55420601)
 
 
+The pure RR intervals can be decomposed into their frequency constituents using a fast Fourier transformation (FFT). By this method, frequency components in the VLF, LF and HF spectra are obtained from the signal. The total power is indicated as TP.
+
+It has been shown that the frequency-based HRV parameters (spectral analysis) are not the ideal solution for the use in practice as they are very accident-sensitive. For instance the VLF (very low frequency) area can simply not be represented correctly in a short-term measurement.
+ 
+Therefore, the ANS Analysis is limited to the time-domain parameters as they are valid for the short-term measurement.
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/2362ab41-86a3-4e7b-9edd-c43114d8eb51)
+
+Reading duration should be a minimum of 5 minutes to be accurate. 2 minutes is for confidence in Low Frequency (LF) values. High frequency (HF) can reliably be measured in 60 seconds. You can start to measure LF in as little as 2 minutes, but research says 2 minutes+ is best for LF.
+
+In theory, LF/HF shows ANS balance 
+
+Low LF/HF ratio = PSNS dominance 
+
+High LF/HF ratio = SNS dominance
+
+Source: EHRV & ansAnalysis
 
 
+#### Music & Sound Therapy
 
+Music treatment, also known as music therapy, or so called music medicine, is a newly developed interdisciplinary
+treatment including music, medicine and psychology.
+
+Heart rate variability (HRV), as the name suggests is the variation in the heart rate of an individual. More precisely, HRV is the minute fluctuations in the time interval (typically tens of milliseconds long) between successive heartbeats or in an electrocardiogram (EKG), two adjacent Q-Q (or N-N) intervals. 
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/c8a60d71-181d-4591-9818-c915526ac42e)
+
+Before Music
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/e27b0a53-344e-436f-81eb-65d5c140699d)
+
+During Music
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/1d34e134-9f87-4808-849b-088a45bc03a9)
+
+After Music
+
+Source:  Tianjin University, Tianjin (2010)
+
+The LF component is considered to reflect the activity of the whole autonomic nervous system. In our study, the LF component generally increased, indicating that this type of music increased the activity of the whole autonomic nervous
+system.
+
+The LF / HF ratio is a reflection of the coordination of the sympathetic nervous system and parasympathetic nervous system. The overall variation was not obvious.
+
+The ApEn is an indicator of system’s complexity. In our study, ApEn decreased after music therapy, which indicates that the system becomes less complexity, with less frequency components.
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/3cf2da14-14f6-43f7-9046-69a6ffb43317)
+
+The following shows the pre and post music therapy conducted GIMS (India)
+
+There are ancient texts and modern studies alluding to the therapeutic benefits obtained from listening to music. Studies have shown that chanting "OM" has a relaxing effect by causing parasympathetic dominance, limbic deactivation, and decreasing the brain's dopamine levels. This research aims to study the effect of listening to OM chanting on the cardiovascular system and heart rate variability and its possible use as a stress buster among medical students.
 
 
 ## Setup 
-1. Clone this repository to your local machine using:
 
-```bash
-git clone https://github.com/pvjambur/Dhyana_VR.git
-```
-2. Navigate to the project directory:
+### Hardware Setup
 
-```bash
-cd Dhyana_VR
-```
-3. Install the required dependencies from `requirements.txt` using pip:
-```
-pip install -r requirements.txt
-```
-4. Clone this repository using `git clone` and deploy using the command:
-```bash
-streamlit run main.py
-```
-5. If you have a VR headset, go ahead and experience the VR-visuals in it, if not, we have exquisite 3D visuals for you!
+Our project is monitored by two devices: Apple Vision Pro and Apple Watch series
+
+A 'Swift' based app which can be integrated with Vision pro.
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/62b1618e-c0d3-4292-a311-aef4b982fadd)
+
+Consists of VR display showing the immersive environment interaction, with a dashboard consisting of vitals, records and other factors. The Apple watch provides multiple parameters such as; blood oxygen levels (spO2), pulse, heart rate (bpm) and blood pressure. The following would be displayed in the dashboard as well.
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/5f9a197e-15d0-4533-93b0-9418d8ab0484)
+
+
+### Software design
+
+The dashboard gives a clear view of dynamic status of the user. At the end of the therapy, it generates an excel file giving a detailed report o fthe therapy session and the improvements made by the user. 
+
+![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/87558fe3-2567-4d9f-ae53-c5412e72ea37)
+
+Sample dashboard display, user perspective.
+
+
+
+
+
+
 ## Architechture 
-<img width="900" alt="50" src="https://github.com/pvjambur/Dhyana_VR/blob/main/flowchart.png">
 
 ## Homepage 
 <img width="900" alt="50" src="https://github.com/pvjambur/Dhyana_VR/blob/main/home.png">
