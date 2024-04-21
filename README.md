@@ -76,7 +76,7 @@ git clone https://github.com/pvjambur/Dhyana_VR.git
 2. Navigate to the project directory:
 
 ```bash
-cd T-BOLT
+cd Dhyana_VR
 ```
 3. Install the required dependencies from `requirements.txt` using pip:
 ```
