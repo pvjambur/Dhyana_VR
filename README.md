@@ -84,6 +84,7 @@ streamlit run main.py
 ```
 5. If you have a VR headset, go ahead and experience the VR-visuals in it, if not, we have exquisite 3D visuals for you!
 ## Architechture 
+<img width="900" alt="50" src="https://github.com/pvjambur/Dhyana_VR/blob/main/flowchart.png">
 
 ## Homepage 
 <img width="900" alt="50" src="https://github.com/pvjambur/Dhyana_VR/blob/main/home.png">
