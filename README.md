@@ -226,7 +226,6 @@ Refer to [Our project Pitch](https://www.canva.com/design/DAGC4YS7vm8/ekBtb1hNoa
 
 ## About us
 
-The collaborators of this GitHub repository are Pranav V Jambur and Smruthi S Kadagadkai
-We are pursuing our bachelors in Engineering.
+The collaborators of this GitHub repository are Pranav V Jambur and Smruthi S Kadagadkai, pursuing bachelors in Engineering, batch of 2027.
 
 
