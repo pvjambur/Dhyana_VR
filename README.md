@@ -42,7 +42,7 @@ An important feature of RMSSD is that it characterizes short-term rapid changes 
 SDNN is a measure of HRV that calculates the average value of HRV in milliseconds and shows how far your HRV is from that average at any point in the day. Although it is often calculated in 24 hours.
 The SDNN is considered the “gold standard” for medical stratification of cardiac risk. SDNN values predict both morbidity and mortality.
 
-![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/a1c28c89-0962-441e-ac62-7d9e8f31eeeb)
+<img width="500" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/a1c28c89-0962-441e-ac62-7d9e8f31eeeb">
 
 Heart attack patients with SDNN values over 100 ms have been reported to have a 5.3 lower mortality risk than those with under 50 ms.
 
