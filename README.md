@@ -2,7 +2,8 @@
 "Thought ceases in meditation; even the mind’s elements are quite quiet. Blood circulation stops. His breath stops, but he/she is still alive."
 ~ Swami Vivekananda (1896)
 
-![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/25a07aa0-979e-4e76-a4a7-c781ef3e98a7)
+
+<img width="300" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/25a07aa0-979e-4e76-a4a7-c781ef3e98a7">
 
 
 ## Virtual Reality Therapy & Rehabilitation
@@ -42,7 +43,7 @@ Traditional therapeutic approaches often involve physical therapy and medication
 To develop a Virtual Reality (VR) Therapy & Rehabilitation platform built through 'Swift' (integrated with Vision Pro dynamics) that leverages the immersive and controlled environment to create a blissful space for meditation.
 The user can wear the VR headset on the go; isolated VR headset "Apple Vision Pro". Further parameters such as heart rate, spO2 (blood oxygen) & pulse rate can be measured through the "Apple Watch Series 9".
 
-![SxsXEq2orXEyAdtxgQzjzY](https://github.com/pvjambur/Dhyana_VR/assets/145439975/860acd27-8d2d-46bb-9c2a-64cb77c1a09d)
+<img width="300" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/860acd27-8d2d-46bb-9c2a-64cb77c1a09d">
 
 
 Traditional vertigo therapy involves deep breathing, yoga and a combination of ayurvedic and synthetic medications giving temporary relief. However, our objective is to emphasize deep breathing & yoga; integrated with music therapy for HRV, frequency therapy for & the mind & image - sound sensory combination to improve the breathing cycle. We use multiple neurobiology and cardiovascular terms to generate an overall progress report of the person.
@@ -166,14 +167,13 @@ A 'Swift' based app which can be integrated with Vision Pro.
 
 Consists of VR display showing the immersive environment interaction, with a dashboard consisting of vitals, records and other factors. The Apple watch provides multiple parameters such as; blood oxygen levels (spO2), pulse, heart rate (bpm) and blood pressure. The following would be displayed in the dashboard as well.
 
-![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/5f9a197e-15d0-4533-93b0-9418d8ab0484)
-
+<img width="400" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/5f9a197e-15d0-4533-93b0-9418d8ab0484">
 
 ### Software design
 
 The dashboard gives a clear view of the dynamic status of the user. At the end of the therapy, it generates an Excel file giving a detailed report of the therapy session and the improvements made by the user. 
 
-![image](https://github.com/pvjambur/Dhyana_VR/assets/145439975/87558fe3-2567-4d9f-ae53-c5412e72ea37)
+<img width="400" alt="50" src="https://github.com/pvjambur/Dhyana_VR/assets/145439975/87558fe3-2567-4d9f-ae53-c5412e72ea37">
 
 Sample dashboard display, user perspective.
 
